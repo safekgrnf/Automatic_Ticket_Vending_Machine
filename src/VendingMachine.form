@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="VendingMachine">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1320" height="580"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="65a43" binding="root" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="d1a8f">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <tabbedpane id="81a66" binding="Menu">
+                <constraints/>
+                <properties>
+                  <enabled value="true"/>
+                  <font name="Arial"/>
+                </properties>
+                <border type="none">
+                  <font name="Arial"/>
+                  <title-color color="-4473925"/>
+                </border>
+                <children>
+                  <grid id="afb0a" binding="Food" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="true" same-size-vertically="true" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Food"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none" title-justification="2"/>
+                    <children>
+                      <component id="29d8" class="javax.swing.JButton" binding="BibimbaButton" custom-create="true">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="image/bibinba_bowl.jpg"/>
+                          <text value=""/>
+                          <toolTipText value="ビビンバ"/>
+                          <verticalAlignment value="0"/>
+                          <verticalTextPosition value="0"/>
+                        </properties>
+                      </component>
+                      <component id="fab1f" class="javax.swing.JButton" binding="TsukimiButton" custom-create="true">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="image/tsukimi_bowl.jpg"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="29147" class="javax.swing.JButton" binding="ThirtyButton">
+                        <constraints>
+                          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="image/balance_bowl.jpg"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="397b8" class="javax.swing.JButton" binding="SabaButton" custom-create="true">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="image/sabamiso.jpg"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="dba55" class="javax.swing.JButton" binding="ChickenButton">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="image/chicken.jpg"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="32918" class="javax.swing.JButton" binding="DashiButton">
+                        <constraints>
+                          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="image/ochazuke.jpg"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="919f4" binding="Dessert" custom-create="true" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Dessert"/>
+                    </constraints>
+                    <properties>
+                      <enabled value="true"/>
+                      <toolTipText value="かき氷"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="2471f" class="javax.swing.JButton" binding="HojiKakiButton">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="image/houji_koori.jpg"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="8215f" class="javax.swing.JButton" binding="MonburanButton">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="image/kinako.jpg"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="a0995" class="javax.swing.JButton" binding="MacchaButton">
+                        <constraints>
+                          <grid row="1" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="image/maccha_koori.jpg"/>
+                          <text value=""/>
+                          <verticalAlignment value="0"/>
+                          <verticalTextPosition value="0"/>
+                        </properties>
+                      </component>
+                      <component id="f6563" class="javax.swing.JButton" binding="AnmitsuButton">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="image/anmitsu.jpg"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="1fb97" binding="Drink" custom-create="true" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Drink"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none">
+                      <font/>
+                      <title-color color="-4473925"/>
+                    </border>
+                    <children>
+                      <component id="15fa" class="javax.swing.JButton" binding="HotGreenButton">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="image/oncha.jpg"/>
+                          <text value=""/>
+                          <toolTipText value="緑茶"/>
+                        </properties>
+                      </component>
+                      <component id="6cb4f" class="javax.swing.JButton" binding="HotBlackButton">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <maximum-size width="1200" height="1000"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <icon value="image/blacktea.jpg"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="7f748" class="javax.swing.JButton" binding="ColdGreenButton">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="image/reicha.jpg"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="c199f" class="javax.swing.JButton" binding="ColdHojiButton">
+                        <constraints>
+                          <grid row="1" column="1" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="image/houjicha.jpg"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </tabbedpane>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <toolbar id="1705d">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </toolbar>
+      <grid id="c5aa5" binding="Order" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="14274" class="javax.swing.JTextPane" binding="textPane1" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="130"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="41b5d" class="javax.swing.JButton" binding="CheckoutButton">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="CheckOut"/>
+            </properties>
+          </component>
+          <component id="6dbbb" class="javax.swing.JTextPane" binding="Total" custom-create="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="20"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <component id="c4e18" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="What would you like to order?"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
