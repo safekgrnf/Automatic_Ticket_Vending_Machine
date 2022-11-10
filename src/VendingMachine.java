@@ -28,10 +28,13 @@ public class VendingMachine {
         private JPanel root;
 
     int sum = 0;
+    int tmp = 0;
+    int price = 0;
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("VendingMachine");
         frame.setContentPane(new VendingMachine().root);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
     }
@@ -42,7 +45,7 @@ public class VendingMachine {
             @Override
             public void actionPerformed(ActionEvent e) {
                 sum += 1320;
-                Order("Bibimbap Buddha Bowl");
+                Order("Bibimbap Buddha Bowl.");
 
             }
         });
@@ -177,10 +180,11 @@ public class VendingMachine {
                     "order confirmation",
                     JOptionPane.YES_NO_OPTION);
             if(confirmation ==0 ){
-                Total.setText("Total "+ sum + " yen");
-                textPane1.setText(currentText + food +"\n");
-                JOptionPane.showMessageDialog(null, food );
-
+                JOptionPane.showMessageDialog(null, "Thank you for ordering "+food+". It will be served as soon as possible!!");
+                Total.setText("Total: "+sum+"yen");
+                price = sum -tmp;
+                textPane1.setText(currentText + food +"："+price+"yen\n");
+                tmp = sum;
             }
         }
 

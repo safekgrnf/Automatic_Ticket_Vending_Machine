@@ -3,12 +3,12 @@
   <grid id="27dc6" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="1320" height="580"/>
+      <xy x="20" y="20" width="1596" height="580"/>
     </constraints>
     <properties/>
     <border type="none"/>
     <children>
-      <grid id="65a43" binding="root" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+      <grid id="65a43" binding="root" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
@@ -42,21 +42,26 @@
                     <properties/>
                     <border type="none" title-justification="2"/>
                     <children>
-                      <component id="29d8" class="javax.swing.JButton" binding="BibimbaButton" custom-create="true">
+                      <component id="29d8" class="javax.swing.JButton" binding="BibimbaButton">
                         <constraints>
-                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="100"/>
+                          </grid>
                         </constraints>
                         <properties>
+                          <horizontalAlignment value="0"/>
                           <icon value="image/bibinba_bowl.jpg"/>
                           <text value=""/>
-                          <toolTipText value="ビビンバ"/>
+                          <toolTipText value=""/>
                           <verticalAlignment value="0"/>
                           <verticalTextPosition value="0"/>
                         </properties>
                       </component>
-                      <component id="fab1f" class="javax.swing.JButton" binding="TsukimiButton" custom-create="true">
+                      <component id="fab1f" class="javax.swing.JButton" binding="TsukimiButton">
                         <constraints>
-                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="100"/>
+                          </grid>
                         </constraints>
                         <properties>
                           <icon value="image/tsukimi_bowl.jpg"/>
@@ -65,16 +70,20 @@
                       </component>
                       <component id="29147" class="javax.swing.JButton" binding="ThirtyButton">
                         <constraints>
-                          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="200" height="100"/>
+                          </grid>
                         </constraints>
                         <properties>
                           <icon value="image/balance_bowl.jpg"/>
                           <text value=""/>
                         </properties>
                       </component>
-                      <component id="397b8" class="javax.swing.JButton" binding="SabaButton" custom-create="true">
+                      <component id="397b8" class="javax.swing.JButton" binding="SabaButton">
                         <constraints>
-                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="100"/>
+                          </grid>
                         </constraints>
                         <properties>
                           <icon value="image/sabamiso.jpg"/>
@@ -83,7 +92,9 @@
                       </component>
                       <component id="dba55" class="javax.swing.JButton" binding="ChickenButton">
                         <constraints>
-                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="100"/>
+                          </grid>
                         </constraints>
                         <properties>
                           <icon value="image/chicken.jpg"/>
@@ -92,7 +103,9 @@
                       </component>
                       <component id="32918" class="javax.swing.JButton" binding="DashiButton">
                         <constraints>
-                          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="100"/>
+                          </grid>
                         </constraints>
                         <properties>
                           <icon value="image/ochazuke.jpg"/>
@@ -101,7 +114,7 @@
                       </component>
                     </children>
                   </grid>
-                  <grid id="919f4" binding="Dessert" custom-create="true" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                  <grid id="919f4" binding="Dessert" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
                     <margin top="0" left="0" bottom="0" right="0"/>
                     <constraints>
                       <tabbedpane title="Dessert"/>
@@ -114,7 +127,7 @@
                     <children>
                       <component id="2471f" class="javax.swing.JButton" binding="HojiKakiButton">
                         <constraints>
-                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                          <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
                         </constraints>
                         <properties>
                           <icon value="image/houji_koori.jpg"/>
@@ -152,7 +165,7 @@
                       </component>
                     </children>
                   </grid>
-                  <grid id="1fb97" binding="Drink" custom-create="true" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                  <grid id="1fb97" binding="Drink" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
                     <margin top="0" left="0" bottom="0" right="0"/>
                     <constraints>
                       <tabbedpane title="Drink"/>
@@ -170,7 +183,7 @@
                         <properties>
                           <icon value="image/oncha.jpg"/>
                           <text value=""/>
-                          <toolTipText value="緑茶"/>
+                          <toolTipText value=""/>
                         </properties>
                       </component>
                       <component id="6cb4f" class="javax.swing.JButton" binding="HotBlackButton">
@@ -208,6 +221,50 @@
               </tabbedpane>
             </children>
           </scrollpane>
+          <grid id="c5aa5" binding="Order" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="14274" class="javax.swing.JTextPane" binding="textPane1" default-binding="true">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="500"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="41b5d" class="javax.swing.JButton" binding="CheckoutButton">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="CheckOut"/>
+                </properties>
+              </component>
+              <component id="6dbbb" class="javax.swing.JTextPane" binding="Total">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="50" height="20"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="62801" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Ordered Items"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
         </children>
       </grid>
       <toolbar id="1705d">
@@ -220,42 +277,6 @@
         <border type="none"/>
         <children/>
       </toolbar>
-      <grid id="c5aa5" binding="Order" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-        <margin top="0" left="0" bottom="0" right="0"/>
-        <constraints>
-          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties/>
-        <border type="none"/>
-        <children>
-          <component id="14274" class="javax.swing.JTextPane" binding="textPane1" default-binding="true">
-            <constraints>
-              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
-                <preferred-size width="150" height="130"/>
-              </grid>
-            </constraints>
-            <properties>
-              <text value=""/>
-            </properties>
-          </component>
-          <component id="41b5d" class="javax.swing.JButton" binding="CheckoutButton">
-            <constraints>
-              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-            </constraints>
-            <properties>
-              <text value="CheckOut"/>
-            </properties>
-          </component>
-          <component id="6dbbb" class="javax.swing.JTextPane" binding="Total" custom-create="true">
-            <constraints>
-              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false">
-                <preferred-size width="50" height="20"/>
-              </grid>
-            </constraints>
-            <properties/>
-          </component>
-        </children>
-      </grid>
       <component id="c4e18" class="javax.swing.JLabel">
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
